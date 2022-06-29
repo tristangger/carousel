@@ -1,0 +1,25 @@
+.font {
+    color: #ffffff;
+    font: 20px/150% SparkasseWeb,Helvetica,Arial,sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    background: none;
+    border: none;
+    padding: 0;
+    outline: inherit;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: red;
+    height: 60px;
+    padding: 1rem;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.chevron{
+    margin-left: 1rem;
+}

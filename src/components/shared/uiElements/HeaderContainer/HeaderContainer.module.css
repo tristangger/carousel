@@ -1,0 +1,39 @@
+.headerContainer {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 6px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.05);
+    padding: 10px 20px;
+}
+
+.iconRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.headlineIconFlex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconContainer {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 40px;
+    height: auto;
+}
+
+.headlineColor {
+    color: #ff0000;
+    text-align: center;
+}

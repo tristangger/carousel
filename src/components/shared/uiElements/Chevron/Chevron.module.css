@@ -1,0 +1,13 @@
+.chevron {
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+}
+
+.hover {
+    display: none;
+}
+.chevron:hover .hover{
+    display: block;
+}
+

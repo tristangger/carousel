@@ -1,0 +1,48 @@
+/** Mobile */
+.whiteBackground {
+    box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+}
+.startImage {
+    width: 100%;
+    height: auto;
+}
+
+.textContent {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+    z-index: 1;
+    text-align: left;
+}
+
+.textContent .startHeadline {
+    font-size: 1.25rem;
+}
+
+.primary {
+    font: 1.5rem/110% SparkasseWeb, Helvetica, Arial, sans-serif;
+    color: red;
+}
+
+.secondary {
+    font: 1rem/100% SparkasseWeb, Helvetica, Arial, sans-serif;
+    color: #333;
+}
+
+/** Tablet and up */
+@media screen and (min-width: 767px) {
+    .startContainer .textContent .startHeadline {
+        font-size: 20px;
+    }
+
+    .startContainer .textContent .startParagraph {
+        font-size: 12px;
+    }
+
+    .startContainer .shadow {
+        background: linear-gradient(to bottom,rgba(255,255,255,0) 0,rgba(0,0,0,0.29) 42%,rgba(0,0,0,0.33) 47%,rgba(0,0,0,0.45) 70%,rgba(0,0,0,0.6) 100%);
+    }
+}

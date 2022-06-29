@@ -1,0 +1,69 @@
+.answer {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    height: 66px;
+    margin-bottom: 3px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.05);
+    position: relative;
+}
+
+.flexboxAnswer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    pointer-events: none;
+}
+
+.flexboxLabelInfo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+
+.clickArea {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.floatingTextColor {
+    color: #333;
+    max-width: calc(100% - 50px);
+}
+
+.iconContainer {
+    height: 46px;
+    width: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.greyLine {
+    height: 46px;
+    width: 2px;
+    background-color: #F0F0F0;
+}
+
+.answer:hover .floatingTextColor {
+    color: #ff0000;
+}
+
+.answer:hover .greyLine {
+    background-color: #ff0000;
+}

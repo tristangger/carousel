@@ -1,0 +1,15 @@
+.sectionContainer {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.fontParagraph {
+    font: 12px/150% SparkasseWeb, Helvetica, Arial, sans-serif;
+    color: #333;
+}

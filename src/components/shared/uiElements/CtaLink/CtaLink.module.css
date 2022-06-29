@@ -1,0 +1,15 @@
+.ctaLinkRedButton {
+    background-color: #ff0000;
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font: 14px/18px SparkasseWeb,
+    Helvetica,
+    Arial,
+    sans-serif;
+    display: inline-block;
+}
+
+.ctaLinkAHref {
+    text-decoration: none;
+}

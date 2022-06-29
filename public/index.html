@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+
+<body>
+
+
+
+
+</body>
+
+</html>
+
+
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <title>
+        <%= htmlWebpackPlugin.options.title %>
+    </title>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+    <meta content="de" name="language" />
+    <meta content="initial-scale=1, width=device-width, maximum-scale=1" name="viewport" />
+    <meta content="index,follow" name="robots" />
+    <meta content="telephone=no" name="format-detection" />
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <style>
+        @font-face {
+            font-family: 'Sparkasse Rg';
+            src: url(fonts/Sparkasse_web_Rg.woff) format('woff'), url(fonts/Sparkasse_web_Rg.ttf) format('truetype');
+            font-weight: normal;
+            font-style: normal
+        }
+
+        @font-face {
+            font-family: 'Sparkasse Bd';
+            src: url(fonts/Sparkasse_web_Bd.woff) format('woff'), url(fonts/Sparkasse_web_Bd.ttf) format('truetype');
+            font-weight: bold;
+            font-style: normal
+        }
+
+        body {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+
+<body>
+<div id="app"></div>
+        <script src="slider.js"></script>
+        <script type="text/javascript">
+            carousel.create({
+                container: "app",
+                path: ".",
+                fondsLearnMore: 'https://www.example.de',
+                fondsSparplanLearnMore: 'https://www.example.de',
+                fondgebundeneLebensversicherungLearnMore: '/de/test',
+                aktienLearnMore: '', // example empty
+                zertifikateLearnMore: '', // example empty
+                ifaLink: '/de/ifa',
+            })
+        </script>
+
+</body>
+
+</html>

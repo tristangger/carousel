@@ -1,0 +1,15 @@
+.floatingText {
+    font: 16px/150% SparkasseWeb, Helvetica, Arial, sans-serif;
+}
+
+@media screen and (max-width: 1079px) {
+    .floatingText {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .floatingText {
+        font-size: 13px;
+    }
+}

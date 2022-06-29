@@ -1,0 +1,8 @@
+**/*.test.js
+node_modules
+webpack.*
+*.config.*
+.eslintrc.js
+.idea
+*.css
+public

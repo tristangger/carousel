@@ -1,0 +1,44 @@
+.productCard {
+    padding: 1rem;
+    background: white;
+    display: flex;
+    margin-bottom: .5rem;
+    box-sizing: border-box;
+}
+
+.productCard img {
+    height: 100px;
+}
+
+.productInformation {
+    box-sizing: border-box;
+    padding-left: 1rem;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.productHeadline {
+    font: 14px/150% SparkasseWeb,Helvetica,Arial,sans-serif !important;
+}
+
+.productDescription {
+    font: 12px/150% SparkasseWeb,Helvetica,Arial,sans-serif;
+}
+
+.mobileLayout {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.mobileLayout .productImage {
+    display: none;
+}
+
+.mobileLayout .productInformation {
+    max-width: 100%;
+    padding-left: 0;
+}

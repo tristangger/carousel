@@ -1,0 +1,26 @@
+.container {
+    color: #777;
+    font: 14px/150% SparkasseWeb,Helvetica,Arial,sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-basis: 100%;
+    padding: .4rem 0rem;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    outline: inherit;
+}
+
+.chevron {
+    margin-left: .4rem;
+}
+
+/** Tablet and up */
+@media screen and (min-width: 440px) {
+    .container {
+        padding: .4rem .8rem;
+        flex-basis: unset;
+    }
+}

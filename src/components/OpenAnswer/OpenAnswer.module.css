@@ -1,0 +1,87 @@
+.textInputContainer{
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.05);
+    box-sizing: border-box;
+    width: 100%;
+    padding: 48px 20px 48px 30px;
+}
+
+.inputBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form {
+    width: calc(100% - 4rem);
+}
+
+.textarea {
+    display: block;
+    box-sizing: border-box;
+    padding: 20px 20px !important;
+    font: 16px/150% SparkasseWeb, Helvetica, Arial, sans-serif !important;
+    border: 1px solid #B0B0B0 !important;
+    resize: none;
+    width:100%;
+    height:100%;
+    outline:none;
+}
+
+.textarea:focus::placeholder {
+    color: transparent;
+}
+
+.textarea:focus {
+    border: 1px solid #333333 !important;
+}
+
+.textarea.disabled{
+    border: 1px solid #ff0000 !important;
+}
+
+@media screen and (max-width: 1079px) {
+    .textarea {
+        font-size: 15px !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .textarea {
+        padding: 10px 10px !important;
+        font-size: 13px !important;
+        height: 8em;
+    }
+}
+
+.iconContainer {
+    background: none;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    height: 46px;
+    width: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.greyLine {
+    height: 46px;
+    width: 2px;
+    background-color: #F0F0F0;
+}
+
+.iconContainer:hover .greyLine{
+    background-color: #ff0000;
+}
+
+.iconContainer:disabled .greyLine{
+    background-color: #F0F0F0;
+}
+
+.errorMessage {
+    color: red;
+}
